@@ -17,4 +17,5 @@ snake = [
 ]
 
 food = [sh/2, sw/2]
-w.addch(food)
+w.addch(food[0], food[1], curses.ACS_PI)
+
